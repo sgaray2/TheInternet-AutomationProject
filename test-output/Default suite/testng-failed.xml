@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="authenticationTests.AuthenticationForm">
+      <class name="nestedFramesTests.NestedFramesTests">
         <methods>
           <include name="tearDown"/>
-          <include name="sucessAuthentication"/>
-          <include name="setUp"/>
+          <include name="browserSetUp"/>
+          <include name="verifyLeftFrame"/>
         </methods>
-      </class> <!-- authenticationTests.AuthenticationForm -->
+      </class> <!-- nestedFramesTests.NestedFramesTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

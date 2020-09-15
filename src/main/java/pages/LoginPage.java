@@ -9,9 +9,7 @@ private By username = By.id("username");
 private By password = By.id("password");
 private By loginBtn = By.cssSelector("button[type='submit']");
 
-public LoginPage(WebDriver driver) {
-this.driver = driver;	
-}
+public LoginPage(WebDriver driver) { this.driver = driver;}
 
 public void setUserName(String user) {
 	driver.findElement(username).sendKeys(user);

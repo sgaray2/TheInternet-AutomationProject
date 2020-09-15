@@ -9,9 +9,7 @@ private WebDriver driver;
 private By securePageMessage = By.id("flash");
 private By failedAuthMessage = By.cssSelector("div[class='flash error']");
 
-public SecurePage(WebDriver driver) {
-	this.driver=driver;
-}
+public SecurePage(WebDriver driver) {this.driver=driver;}
 
 public String getSecureMessage() {
 	return driver.findElement(securePageMessage).getText();
