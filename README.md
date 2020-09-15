@@ -38,6 +38,11 @@ url.
 
 #### *Testing Framework:
 Using TestNG for Assertions, Grouping, and Parallel execution.
+Created testng.xml file which for now it runs the AuthenticationForm class that has 3 test cases, the test cases
+have their priority.
+Annotations used: 
+BeforeMethod and AfterMethod: both to open and close the browser after every test.
+Test: for every test case.
 
 #### *Version Control:
 GIT.
