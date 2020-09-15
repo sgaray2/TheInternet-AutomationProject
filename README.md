@@ -5,8 +5,8 @@ The internet: https://the-internet.herokuapp.com/
 is a website that enables different features to automate, with the goal to exercise Automation 
 knowledge. Some of the features are login, dropdowns, file upload, javaScript alerts, etc.
 
-The test case automated is the following:
-So far I have my automated test cases for the login form. 3 test cases were added:
+The test case automated are the following:
+So far I have my automated test cases for the login form feature. 3 test cases were added:
 1) successAuthentication: verifies a succesful login for a given username and password.
 2) FailedAuthentication: verifies the error message for an incorrect username and password.
 3) IncorrectPassword: verifies the error message for a correct username but incorrect password.
