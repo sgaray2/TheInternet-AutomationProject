@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-16T13:51:39 CEST" name="TheInternet" finished-at="2020-09-16T13:52:09 CEST" duration-ms="30586">
+    <groups>
+    </groups>
+    <test started-at="2020-09-16T13:51:39 CEST" name="Test" finished-at="2020-09-16T13:52:09 CEST" duration-ms="30586">
+      <class name="authenticationTests.AuthenticationForm">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:51:39 CEST" name="browserSetUp" finished-at="2020-09-16T13:51:48 CEST" duration-ms="9750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="sucessAuthentication()[pri:1, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:51:48 CEST" name="sucessAuthentication" finished-at="2020-09-16T13:51:50 CEST" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sucessAuthentication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:51:50 CEST" name="tearDown" finished-at="2020-09-16T13:51:51 CEST" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:51:51 CEST" name="browserSetUp" finished-at="2020-09-16T13:51:58 CEST" duration-ms="7510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="failedAuthentication()[pri:2, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:51:58 CEST" name="failedAuthentication" finished-at="2020-09-16T13:52:00 CEST" duration-ms="1502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedAuthentication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:52:00 CEST" name="tearDown" finished-at="2020-09-16T13:52:00 CEST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:52:00 CEST" name="browserSetUp" finished-at="2020-09-16T13:52:07 CEST" duration-ms="7095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="incorrectPasswordAuth()[pri:3, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:52:07 CEST" name="incorrectPasswordAuth" finished-at="2020-09-16T13:52:09 CEST" duration-ms="1166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectPasswordAuth -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:52:09 CEST" name="tearDown" finished-at="2020-09-16T13:52:09 CEST" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- authenticationTests.AuthenticationForm -->
+      <class name="nestedFramesTests.NestedFramesTests">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:nestedFramesTests.NestedFramesTests@5af97850]" started-at="2020-09-16T13:51:39 CEST" name="browserSetUp" finished-at="2020-09-16T13:51:48 CEST" duration-ms="9576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="verifyLeftFrame()[pri:1, instance:nestedFramesTests.NestedFramesTests@5af97850]" started-at="2020-09-16T13:51:48 CEST" name="verifyLeftFrame" finished-at="2020-09-16T13:51:50 CEST" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeftFrame -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nestedFramesTests.NestedFramesTests@5af97850]" started-at="2020-09-16T13:51:50 CEST" name="tearDown" finished-at="2020-09-16T13:51:50 CEST" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:nestedFramesTests.NestedFramesTests@5af97850]" started-at="2020-09-16T13:51:50 CEST" name="browserSetUp" finished-at="2020-09-16T13:51:58 CEST" duration-ms="7388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="verifyRightFrame()[pri:2, instance:nestedFramesTests.NestedFramesTests@5af97850]" started-at="2020-09-16T13:51:58 CEST" name="verifyRightFrame" finished-at="2020-09-16T13:51:59 CEST" duration-ms="1212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRightFrame -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nestedFramesTests.NestedFramesTests@5af97850]" started-at="2020-09-16T13:51:59 CEST" name="tearDown" finished-at="2020-09-16T13:52:00 CEST" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- nestedFramesTests.NestedFramesTests -->
+    </test> <!-- Test -->
+  </suite> <!-- TheInternet -->
+</testng-results>

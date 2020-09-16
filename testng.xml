@@ -4,7 +4,7 @@
   <test thread-count="5" parallel="classes" name="Test">
     <classes>
       <class name="authenticationTests.AuthenticationForm"/>
-      <class name="nestedFramesTests.NestedFramesTests"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- TheInternet -->

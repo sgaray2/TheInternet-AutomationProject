@@ -1,14 +1,19 @@
 package resources;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import com.google.common.io.Files;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pages.HomePage;
 
@@ -61,5 +66,20 @@ public void browserSetUp() {
 //this method will execute after all the tests
 public void tearDown() {
 	driver.quit();
+}
+
+@AfterMethod
+public void recordFailure(ITestResult result) {
+	//taking screenshots only on failure test cases
+	if(ITestResult.FAILURE == result.getStatus()) {
+		//casting driver to takeScreenshot selenium class and creating a file
+		var camera = (TakesScreenshot)driver;
+		File screenshot = camera.getScreenshotAs(OutputType.FILE);
+		try {
+			Files.move(screenshot, new File("C:\\Users\\Beba\\eclipse-workspace\\TheInternetProject\\src\\main\\java\\resources\\screenshots\\" + result.getName() + ".png"));
+		} catch(Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
 }
 }

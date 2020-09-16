@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-TheInternet" class="navigator-link">
-              <span class="suite-name border-failed">TheInternet</span>
+              <span class="suite-name border-passed">TheInternet</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-TheInternet" class="hide-methods failed suite-TheInternet"> (hide)</a> <!-- hide-methods failed suite-TheInternet -->
-                      <a href="#" panel-name="suite-TheInternet" class="show-methods failed suite-TheInternet"> (show)</a> <!-- show-methods failed suite-TheInternet -->
-                    </span>
-                    <div class="method-list-content failed suite-TheInternet">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TheInternet" title="authenticationTests.AuthenticationForm" class="method navigator-link" hash-for-method="sucessAuthentication">sucessAuthentication</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-TheInternet -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -126,6 +112,21 @@
                         <a href="#" panel-name="suite-TheInternet" title="authenticationTests.AuthenticationForm" class="method navigator-link" hash-for-method="incorrectPasswordAuth">incorrectPasswordAuth</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheInternet" title="authenticationTests.AuthenticationForm" class="method navigator-link" hash-for-method="sucessAuthentication">sucessAuthentication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheInternet" title="nestedFramesTests.NestedFramesTests" class="method navigator-link" hash-for-method="verifyLeftFrame">verifyLeftFrame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheInternet" title="nestedFramesTests.NestedFramesTests" class="method navigator-link" hash-for-method="verifyRightFrame">verifyRightFrame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-TheInternet -->
                   </li>
                 </ul>
@@ -138,28 +139,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-TheInternet" class="panel TheInternet">
-          <div class="suite-TheInternet-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">authenticationTests.AuthenticationForm</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="sucessAuthentication">
-                  </a> <!-- sucessAuthentication -->
-                  <span class="method-name">sucessAuthentication</span>
-                  <div class="stack-trace">java.lang.AssertionError: The text does not match the expected secure message expected [true] but found [false]
-	at authenticationTests.AuthenticationForm.sucessAuthentication(AuthenticationForm.java:25)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:830)
-... Removed 15 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TheInternet-class-failed -->
           <div class="suite-TheInternet-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -180,6 +159,35 @@
                   <span class="method-name">incorrectPasswordAuth</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sucessAuthentication">
+                  </a> <!-- sucessAuthentication -->
+                  <span class="method-name">sucessAuthentication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TheInternet-class-passed -->
+          <div class="suite-TheInternet-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">nestedFramesTests.NestedFramesTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeftFrame">
+                  </a> <!-- verifyLeftFrame -->
+                  <span class="method-name">verifyLeftFrame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRightFrame">
+                  </a> <!-- verifyRightFrame -->
+                  <span class="method-name">verifyRightFrame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-TheInternet-class-passed -->
         </div> <!-- panel TheInternet -->
@@ -191,10 +199,11 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;classes&quot; name=&quot;TheInternet&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Test&quot;&gt;
+&lt;suite parallel=&quot;classes&quot; name=&quot;TheInternet&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;authenticationTests.AuthenticationForm&quot;/&gt;
+      &lt;class name=&quot;nestedFramesTests.NestedFramesTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- TheInternet --&gt;
@@ -208,7 +217,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -234,24 +243,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'failedAuthentication')
 data.setCell(0, 2, 'authenticationTests.AuthenticationForm')
-data.setCell(0, 3, 1230);
+data.setCell(0, 3, 1502);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'incorrectPasswordAuth')
+data.setCell(1, 1, 'sucessAuthentication')
 data.setCell(1, 2, 'authenticationTests.AuthenticationForm')
-data.setCell(1, 3, 1226);
+data.setCell(1, 3, 1401);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'sucessAuthentication')
-data.setCell(2, 2, 'authenticationTests.AuthenticationForm')
-data.setCell(2, 3, 1226);
+data.setCell(2, 1, 'verifyLeftFrame')
+data.setCell(2, 2, 'nestedFramesTests.NestedFramesTests')
+data.setCell(2, 3, 1253);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyRightFrame')
+data.setCell(3, 2, 'nestedFramesTests.NestedFramesTests')
+data.setCell(3, 3, 1212);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'incorrectPasswordAuth')
+data.setCell(4, 2, 'authenticationTests.AuthenticationForm')
+data.setCell(4, 3, 1166);
 window.suiteTableData['TheInternet']= { tableData: data, tableDiv: 'times-div-TheInternet'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-TheInternet">
               </div> <!-- times-div-TheInternet -->
             </div> <!-- times-div -->
@@ -282,51 +299,91 @@ return data;
                 <span class="method-name">browserSetUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">sucessAuthentication</span>
-                <span class="method-start">9306 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">recordFailure([TestResult name=sucessAuthentication status=FAILURE method=AuthenticationForm.sucessAuthentication(...)</span>
-                <span class="method-start">10538 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">10867 ms</span>
-              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">nestedFramesTests.NestedFramesTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserSetUp</span>
-                <span class="method-start">11516 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">failedAuthentication</span>
-                <span class="method-start">18783 ms</span>
+                <span class="method-name">verifyLeftFrame</span>
+                <span class="method-start">9577 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">recordFailure([TestResult name=failedAuthentication status=SUCCESS method=AuthenticationForm.failedAuthentication(...)</span>
-                <span class="method-start">20016 ms</span>
-              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">authenticationTests.AuthenticationForm</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sucessAuthentication</span>
+                <span class="method-start">9750 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">nestedFramesTests.NestedFramesTests</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20016 ms</span>
+                <span class="method-start">10832 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">authenticationTests.AuthenticationForm</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11151 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">nestedFramesTests.NestedFramesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserSetUp</span>
+                <span class="method-start">11513 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">authenticationTests.AuthenticationForm</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserSetUp</span>
+                <span class="method-start">11894 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">nestedFramesTests.NestedFramesTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyRightFrame</span>
+                <span class="method-start">18902 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">authenticationTests.AuthenticationForm</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">failedAuthentication</span>
+                <span class="method-start">19404 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">nestedFramesTests.NestedFramesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20114 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">authenticationTests.AuthenticationForm</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20907 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">browserSetUp</span>
-                <span class="method-start">21283 ms</span>
+                <span class="method-start">21549 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">incorrectPasswordAuth</span>
-                <span class="method-start">28376 ms</span>
+                <span class="method-start">28644 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">recordFailure([TestResult name=incorrectPasswordAuth status=SUCCESS method=AuthenticationForm.incorrectPasswordAut...)</span>
-                <span class="method-start">29603 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29603 ms</span>
+                <span class="method-start">29810 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

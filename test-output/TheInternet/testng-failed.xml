@@ -7,8 +7,8 @@
         <methods>
           <include name="tearDown"/>
           <include name="browserSetUp"/>
-          <include name="incorrectPasswordAuth"/>
-          <include name="failedAuthentication"/>
+          <include name="sucessAuthentication"/>
+          <include name="recordFailure"/>
         </methods>
       </class> <!-- authenticationTests.AuthenticationForm -->
     </classes>
