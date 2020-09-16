@@ -6,10 +6,14 @@ is a website that enables different features to automate, with the goal to exerc
 knowledge. Some of the features are login, dropdowns, file upload, javaScript alerts, etc.
 
 The test case automated are the following:
-So far I have my automated test cases for the login form feature. 3 test cases were added:
+I have my automated test cases for the login form feature. 3 test cases were added:
 1) successAuthentication: verifies a succesful login for a given username and password.
 2) FailedAuthentication: verifies the error message for an incorrect username and password.
 3) IncorrectPassword: verifies the error message for a correct username but incorrect password.
+
+In addition to this, I added 2 test cases for the nested frames feature.
+1) verifyLeftFrame: verifies the message located inside the left frame.
+2) verifyRightFrame: verifies the message located inside the right frame.
 
 #### *IDE:
 Eclipse.
@@ -39,8 +43,8 @@ url.
 
 #### *Testing Framework:
 Using TestNG for Assertions, Grouping, and Parallel execution.
--Created testng.xml file which for now it runs the AuthenticationForm class that has 3 test cases, the test cases
-have their priority.
+-Created testng.xml file which for now it runs the AuthenticationForm class that has 3 test cases and also the test cases
+that belongs to NestedFramesTests.
 -Annotations used: 
 * BeforeMethod and AfterMethod: both to open and close the browser after every test.
 * Test: for every test case.
