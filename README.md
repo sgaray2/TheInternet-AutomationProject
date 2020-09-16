@@ -31,8 +31,9 @@ I defined a standardized maven project:
 * src/main/java: in this package is stored everything related to my framework needed to give support to my automated test cases.
 1) Pages: implemented page object model pattern to separate element locators from the test cases, every page has its own class with
 the elements needed to interact with and the methods to give behavior to that elements. 
-2) resources: so far I have the base class with all the configurations needed for my driver, implicit wait, which browser to execute the
-test cases.
+2) resources: I have the base class with all the configurations needed for my driver, implicit wait, which browser to execute the
+test cases, method to take screenshots.
+-Created a screenshot folder to store the screenshots for the test cases with status equal to failed.
 3) configurations: the properties file is inside this package, this file contains some data to use in my test cases, browser, environment
 url.
 
