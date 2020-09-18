@@ -11,9 +11,18 @@ I have my automated test cases for the login form feature. 3 test cases were add
 2) FailedAuthentication: verifies the error message for an incorrect username and password.
 3) IncorrectPassword: verifies the error message for a correct username but incorrect password.
 
-In addition to this, I added 2 test cases for the nested frames feature.
+UPDATE: I added 2 test cases for the nested frames feature.
 1) verifyLeftFrame: verifies the message located inside the left frame.
 2) verifyRightFrame: verifies the message located inside the right frame.
+
+UPDATE 18/09: I added 5 test cases for horizontal slider and upload files features:
+* Horizontal Slider
+1) verifyFifthValue: clicks the slider until the fifth value is shown.
+2) verifySecondValue: clicks the slider until the second value is shown.
+3) verifyFourthValue: clicks the slider until the fourth value is shown.
+
+* Upload files
+1) uploadPDFFile: verify a pdf file upload and checks if it was uploaded succesfully and if it is the correct file.
 
 #### *IDE:
 Eclipse.
