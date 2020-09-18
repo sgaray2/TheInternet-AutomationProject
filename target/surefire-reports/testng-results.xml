@@ -1,75 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-16T13:51:39 CEST" name="TheInternet" finished-at="2020-09-16T13:52:09 CEST" duration-ms="30586">
+  <suite started-at="2020-09-18T16:55:03 CEST" name="TheInternet" finished-at="2020-09-18T16:55:43 CEST" duration-ms="40233">
     <groups>
     </groups>
-    <test started-at="2020-09-16T13:51:39 CEST" name="Test" finished-at="2020-09-16T13:52:09 CEST" duration-ms="30586">
-      <class name="authenticationTests.AuthenticationForm">
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:51:39 CEST" name="browserSetUp" finished-at="2020-09-16T13:51:48 CEST" duration-ms="9750" status="PASS">
+    <test started-at="2020-09-18T16:55:03 CEST" name="Test" finished-at="2020-09-18T16:55:43 CEST" duration-ms="40233">
+      <class name="horizontalSliderTests.SliderTests">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:horizontalSliderTests.SliderTests@13acb0d1]" started-at="2020-09-18T16:55:03 CEST" name="browserSetUp" finished-at="2020-09-18T16:55:22 CEST" duration-ms="18940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method signature="sucessAuthentication()[pri:1, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:51:48 CEST" name="sucessAuthentication" finished-at="2020-09-16T13:51:50 CEST" duration-ms="1401" status="PASS">
+        <test-method signature="verifyFifthValue()[pri:1, instance:horizontalSliderTests.SliderTests@13acb0d1]" started-at="2020-09-18T16:55:22 CEST" name="verifyFifthValue" finished-at="2020-09-18T16:55:23 CEST" duration-ms="1184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFifthValue -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:horizontalSliderTests.SliderTests@13acb0d1]" started-at="2020-09-18T16:55:23 CEST" name="tearDown" finished-at="2020-09-18T16:55:23 CEST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:horizontalSliderTests.SliderTests@13acb0d1]" started-at="2020-09-18T16:55:23 CEST" name="recordFailure" finished-at="2020-09-18T16:55:23 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFifthValue status=SUCCESS method=SliderTests.verifyFifthValue()[pri:1, instance:horizontalSliderTests.SliderTests@13acb0d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:horizontalSliderTests.SliderTests@13acb0d1]" started-at="2020-09-18T16:55:23 CEST" name="browserSetUp" finished-at="2020-09-18T16:55:33 CEST" duration-ms="9465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="verifySecondValue()[pri:2, instance:horizontalSliderTests.SliderTests@13acb0d1]" started-at="2020-09-18T16:55:33 CEST" name="verifySecondValue" finished-at="2020-09-18T16:55:33 CEST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySecondValue -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:horizontalSliderTests.SliderTests@13acb0d1]" started-at="2020-09-18T16:55:33 CEST" name="recordFailure" finished-at="2020-09-18T16:55:33 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySecondValue status=SUCCESS method=SliderTests.verifySecondValue()[pri:2, instance:horizontalSliderTests.SliderTests@13acb0d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:horizontalSliderTests.SliderTests@13acb0d1]" started-at="2020-09-18T16:55:33 CEST" name="tearDown" finished-at="2020-09-18T16:55:34 CEST" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:horizontalSliderTests.SliderTests@13acb0d1]" started-at="2020-09-18T16:55:34 CEST" name="browserSetUp" finished-at="2020-09-18T16:55:41 CEST" duration-ms="7358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="verifyFourthValue()[pri:3, instance:horizontalSliderTests.SliderTests@13acb0d1]" started-at="2020-09-18T16:55:41 CEST" name="verifyFourthValue" finished-at="2020-09-18T16:55:42 CEST" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFourthValue -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:horizontalSliderTests.SliderTests@13acb0d1]" started-at="2020-09-18T16:55:42 CEST" name="recordFailure" finished-at="2020-09-18T16:55:42 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFourthValue status=SUCCESS method=SliderTests.verifyFourthValue()[pri:3, instance:horizontalSliderTests.SliderTests@13acb0d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:horizontalSliderTests.SliderTests@13acb0d1]" started-at="2020-09-18T16:55:42 CEST" name="tearDown" finished-at="2020-09-18T16:55:43 CEST" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- horizontalSliderTests.SliderTests -->
+      <class name="authenticationTests.AuthenticationForm">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:authenticationTests.AuthenticationForm@b62fe6d]" started-at="2020-09-18T16:55:03 CEST" name="browserSetUp" finished-at="2020-09-18T16:55:13 CEST" duration-ms="10315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="sucessAuthentication()[pri:1, instance:authenticationTests.AuthenticationForm@b62fe6d]" started-at="2020-09-18T16:55:13 CEST" name="sucessAuthentication" finished-at="2020-09-18T16:55:14 CEST" duration-ms="1303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sucessAuthentication -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:51:50 CEST" name="tearDown" finished-at="2020-09-16T13:51:51 CEST" duration-ms="742" status="PASS">
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:authenticationTests.AuthenticationForm@b62fe6d]" started-at="2020-09-18T16:55:14 CEST" name="recordFailure" finished-at="2020-09-18T16:55:14 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sucessAuthentication status=SUCCESS method=AuthenticationForm.sucessAuthentication()[pri:1, instance:authenticationTests.AuthenticationForm@b62fe6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:authenticationTests.AuthenticationForm@b62fe6d]" started-at="2020-09-18T16:55:14 CEST" name="tearDown" finished-at="2020-09-18T16:55:15 CEST" duration-ms="609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:51:51 CEST" name="browserSetUp" finished-at="2020-09-16T13:51:58 CEST" duration-ms="7510" status="PASS">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:authenticationTests.AuthenticationForm@b62fe6d]" started-at="2020-09-18T16:55:15 CEST" name="browserSetUp" finished-at="2020-09-18T16:55:23 CEST" duration-ms="7806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method signature="failedAuthentication()[pri:2, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:51:58 CEST" name="failedAuthentication" finished-at="2020-09-16T13:52:00 CEST" duration-ms="1502" status="PASS">
+        <test-method signature="failedAuthentication()[pri:2, instance:authenticationTests.AuthenticationForm@b62fe6d]" started-at="2020-09-18T16:55:23 CEST" name="failedAuthentication" finished-at="2020-09-18T16:55:24 CEST" duration-ms="1424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedAuthentication -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:52:00 CEST" name="tearDown" finished-at="2020-09-16T13:52:00 CEST" duration-ms="641" status="PASS">
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:authenticationTests.AuthenticationForm@b62fe6d]" started-at="2020-09-18T16:55:24 CEST" name="recordFailure" finished-at="2020-09-18T16:55:24 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=failedAuthentication status=SUCCESS method=AuthenticationForm.failedAuthentication()[pri:2, instance:authenticationTests.AuthenticationForm@b62fe6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:authenticationTests.AuthenticationForm@b62fe6d]" started-at="2020-09-18T16:55:24 CEST" name="tearDown" finished-at="2020-09-18T16:55:25 CEST" duration-ms="569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:52:00 CEST" name="browserSetUp" finished-at="2020-09-16T13:52:07 CEST" duration-ms="7095" status="PASS">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:authenticationTests.AuthenticationForm@b62fe6d]" started-at="2020-09-18T16:55:25 CEST" name="browserSetUp" finished-at="2020-09-18T16:55:33 CEST" duration-ms="8084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method signature="incorrectPasswordAuth()[pri:3, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:52:07 CEST" name="incorrectPasswordAuth" finished-at="2020-09-16T13:52:09 CEST" duration-ms="1166" status="PASS">
+        <test-method signature="incorrectPasswordAuth()[pri:3, instance:authenticationTests.AuthenticationForm@b62fe6d]" started-at="2020-09-18T16:55:33 CEST" name="incorrectPasswordAuth" finished-at="2020-09-18T16:55:34 CEST" duration-ms="1278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrectPasswordAuth -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:authenticationTests.AuthenticationForm@17c386de]" started-at="2020-09-16T13:52:09 CEST" name="tearDown" finished-at="2020-09-16T13:52:09 CEST" duration-ms="630" status="PASS">
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:authenticationTests.AuthenticationForm@b62fe6d]" started-at="2020-09-18T16:55:34 CEST" name="recordFailure" finished-at="2020-09-18T16:55:34 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=incorrectPasswordAuth status=SUCCESS method=AuthenticationForm.incorrectPasswordAuth()[pri:3, instance:authenticationTests.AuthenticationForm@b62fe6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:authenticationTests.AuthenticationForm@b62fe6d]" started-at="2020-09-18T16:55:34 CEST" name="tearDown" finished-at="2020-09-18T16:55:35 CEST" duration-ms="557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- authenticationTests.AuthenticationForm -->
       <class name="nestedFramesTests.NestedFramesTests">
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:nestedFramesTests.NestedFramesTests@5af97850]" started-at="2020-09-16T13:51:39 CEST" name="browserSetUp" finished-at="2020-09-16T13:51:48 CEST" duration-ms="9576" status="PASS">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:nestedFramesTests.NestedFramesTests@3e3047e6]" started-at="2020-09-18T16:55:03 CEST" name="browserSetUp" finished-at="2020-09-18T16:55:13 CEST" duration-ms="10282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method signature="verifyLeftFrame()[pri:1, instance:nestedFramesTests.NestedFramesTests@5af97850]" started-at="2020-09-16T13:51:48 CEST" name="verifyLeftFrame" finished-at="2020-09-16T13:51:50 CEST" duration-ms="1253" status="PASS">
+        <test-method signature="verifyLeftFrame()[pri:1, instance:nestedFramesTests.NestedFramesTests@3e3047e6]" started-at="2020-09-18T16:55:13 CEST" name="verifyLeftFrame" finished-at="2020-09-18T16:55:14 CEST" duration-ms="1136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLeftFrame -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nestedFramesTests.NestedFramesTests@5af97850]" started-at="2020-09-16T13:51:50 CEST" name="tearDown" finished-at="2020-09-16T13:51:50 CEST" duration-ms="680" status="PASS">
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:nestedFramesTests.NestedFramesTests@3e3047e6]" started-at="2020-09-18T16:55:14 CEST" name="recordFailure" finished-at="2020-09-18T16:55:14 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLeftFrame status=SUCCESS method=NestedFramesTests.verifyLeftFrame()[pri:1, instance:nestedFramesTests.NestedFramesTests@3e3047e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nestedFramesTests.NestedFramesTests@3e3047e6]" started-at="2020-09-18T16:55:14 CEST" name="tearDown" finished-at="2020-09-18T16:55:15 CEST" duration-ms="617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:nestedFramesTests.NestedFramesTests@5af97850]" started-at="2020-09-16T13:51:50 CEST" name="browserSetUp" finished-at="2020-09-16T13:51:58 CEST" duration-ms="7388" status="PASS">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:nestedFramesTests.NestedFramesTests@3e3047e6]" started-at="2020-09-18T16:55:15 CEST" name="browserSetUp" finished-at="2020-09-18T16:55:23 CEST" duration-ms="7876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method signature="verifyRightFrame()[pri:2, instance:nestedFramesTests.NestedFramesTests@5af97850]" started-at="2020-09-16T13:51:58 CEST" name="verifyRightFrame" finished-at="2020-09-16T13:51:59 CEST" duration-ms="1212" status="PASS">
+        <test-method signature="verifyRightFrame()[pri:2, instance:nestedFramesTests.NestedFramesTests@3e3047e6]" started-at="2020-09-18T16:55:23 CEST" name="verifyRightFrame" finished-at="2020-09-18T16:55:24 CEST" duration-ms="1137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRightFrame -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nestedFramesTests.NestedFramesTests@5af97850]" started-at="2020-09-16T13:51:59 CEST" name="tearDown" finished-at="2020-09-16T13:52:00 CEST" duration-ms="948" status="PASS">
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:nestedFramesTests.NestedFramesTests@3e3047e6]" started-at="2020-09-18T16:55:24 CEST" name="recordFailure" finished-at="2020-09-18T16:55:24 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRightFrame status=SUCCESS method=NestedFramesTests.verifyRightFrame()[pri:2, instance:nestedFramesTests.NestedFramesTests@3e3047e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:nestedFramesTests.NestedFramesTests@3e3047e6]" started-at="2020-09-18T16:55:24 CEST" name="tearDown" finished-at="2020-09-18T16:55:24 CEST" duration-ms="598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- nestedFramesTests.NestedFramesTests -->
+      <class name="uploadFilesTests.UploadFileTests">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:uploadFilesTests.UploadFileTests@37e547da]" started-at="2020-09-18T16:55:03 CEST" name="browserSetUp" finished-at="2020-09-18T16:55:13 CEST" duration-ms="10230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="uploadPDFFile()[pri:0, instance:uploadFilesTests.UploadFileTests@37e547da]" started-at="2020-09-18T16:55:13 CEST" name="uploadPDFFile" finished-at="2020-09-18T16:55:14 CEST" duration-ms="1170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadPDFFile -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:uploadFilesTests.UploadFileTests@37e547da]" started-at="2020-09-18T16:55:14 CEST" name="recordFailure" finished-at="2020-09-18T16:55:14 CEST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=uploadPDFFile status=SUCCESS method=UploadFileTests.uploadPDFFile()[pri:0, instance:uploadFilesTests.UploadFileTests@37e547da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:uploadFilesTests.UploadFileTests@37e547da]" started-at="2020-09-18T16:55:14 CEST" name="tearDown" finished-at="2020-09-18T16:55:15 CEST" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- uploadFilesTests.UploadFileTests -->
     </test> <!-- Test -->
   </suite> <!-- TheInternet -->
 </testng-results>

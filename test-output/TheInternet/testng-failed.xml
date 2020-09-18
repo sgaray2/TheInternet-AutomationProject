@@ -3,14 +3,16 @@
 <suite parallel="classes" name="Failed suite [TheInternet]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="classes" name="Test(failed)">
     <classes>
-      <class name="authenticationTests.AuthenticationForm">
+      <class name="horizontalSliderTests.SliderTests">
         <methods>
+          <include name="verifyFifthValue"/>
           <include name="tearDown"/>
+          <include name="verifySecondValue"/>
           <include name="browserSetUp"/>
-          <include name="sucessAuthentication"/>
+          <include name="verifyFourthValue"/>
           <include name="recordFailure"/>
         </methods>
-      </class> <!-- authenticationTests.AuthenticationForm -->
+      </class> <!-- horizontalSliderTests.SliderTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [TheInternet] -->

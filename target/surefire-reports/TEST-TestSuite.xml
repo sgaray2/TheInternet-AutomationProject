@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="31.351" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="41.14" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -59,9 +59,13 @@
     <property name="library.jansi.path" value="C:/apache-maven-3.6.3/lib/jansi-native"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="verifyLeftFrame" classname="nestedFramesTests.NestedFramesTests" time="1.083"/>
-  <testcase name="sucessAuthentication" classname="authenticationTests.AuthenticationForm" time="1.401"/>
-  <testcase name="verifyRightFrame" classname="nestedFramesTests.NestedFramesTests" time="0.71"/>
-  <testcase name="failedAuthentication" classname="authenticationTests.AuthenticationForm" time="1.503"/>
-  <testcase name="incorrectPasswordAuth" classname="authenticationTests.AuthenticationForm" time="1.166"/>
+  <testcase name="uploadPDFFile" classname="uploadFilesTests.UploadFileTests" time="1.089"/>
+  <testcase name="verifyLeftFrame" classname="nestedFramesTests.NestedFramesTests" time="1.103"/>
+  <testcase name="sucessAuthentication" classname="authenticationTests.AuthenticationForm" time="1.336"/>
+  <testcase name="verifyFifthValue" classname="horizontalSliderTests.SliderTests" time="0.088"/>
+  <testcase name="verifyRightFrame" classname="nestedFramesTests.NestedFramesTests" time="1.015"/>
+  <testcase name="failedAuthentication" classname="authenticationTests.AuthenticationForm" time="1.424"/>
+  <testcase name="verifySecondValue" classname="horizontalSliderTests.SliderTests" time="0.694"/>
+  <testcase name="incorrectPasswordAuth" classname="authenticationTests.AuthenticationForm" time="1.241"/>
+  <testcase name="verifyFourthValue" classname="horizontalSliderTests.SliderTests" time="0.827"/>
 </testsuite>

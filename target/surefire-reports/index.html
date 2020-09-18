@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">9 methods,   9 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -119,12 +119,32 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheInternet" title="uploadFilesTests.UploadFileTests" class="method navigator-link" hash-for-method="uploadPDFFile">uploadPDFFile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheInternet" title="horizontalSliderTests.SliderTests" class="method navigator-link" hash-for-method="verifyFifthValue">verifyFifthValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheInternet" title="horizontalSliderTests.SliderTests" class="method navigator-link" hash-for-method="verifyFourthValue">verifyFourthValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TheInternet" title="nestedFramesTests.NestedFramesTests" class="method navigator-link" hash-for-method="verifyLeftFrame">verifyLeftFrame</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TheInternet" title="nestedFramesTests.NestedFramesTests" class="method navigator-link" hash-for-method="verifyRightFrame">verifyRightFrame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheInternet" title="horizontalSliderTests.SliderTests" class="method navigator-link" hash-for-method="verifySecondValue">verifySecondValue</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TheInternet -->
@@ -171,6 +191,35 @@
           <div class="suite-TheInternet-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">horizontalSliderTests.SliderTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFifthValue">
+                  </a> <!-- verifyFifthValue -->
+                  <span class="method-name">verifyFifthValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFourthValue">
+                  </a> <!-- verifyFourthValue -->
+                  <span class="method-name">verifyFourthValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySecondValue">
+                  </a> <!-- verifySecondValue -->
+                  <span class="method-name">verifySecondValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TheInternet-class-passed -->
+          <div class="suite-TheInternet-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">nestedFramesTests.NestedFramesTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -190,6 +239,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-TheInternet-class-passed -->
+          <div class="suite-TheInternet-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">uploadFilesTests.UploadFileTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadPDFFile">
+                  </a> <!-- uploadPDFFile -->
+                  <span class="method-name">uploadPDFFile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TheInternet-class-passed -->
         </div> <!-- panel TheInternet -->
         <div panel-name="test-xml-TheInternet" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -203,7 +267,9 @@
   &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;authenticationTests.AuthenticationForm&quot;/&gt;
+      &lt;class name=&quot;horizontalSliderTests.SliderTests&quot;/&gt;
       &lt;class name=&quot;nestedFramesTests.NestedFramesTests&quot;/&gt;
+      &lt;class name=&quot;uploadFilesTests.UploadFileTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- TheInternet --&gt;
@@ -217,7 +283,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -243,32 +309,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'failedAuthentication')
 data.setCell(0, 2, 'authenticationTests.AuthenticationForm')
-data.setCell(0, 3, 1502);
+data.setCell(0, 3, 1424);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'sucessAuthentication')
 data.setCell(1, 2, 'authenticationTests.AuthenticationForm')
-data.setCell(1, 3, 1401);
+data.setCell(1, 3, 1303);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyLeftFrame')
-data.setCell(2, 2, 'nestedFramesTests.NestedFramesTests')
-data.setCell(2, 3, 1253);
+data.setCell(2, 1, 'incorrectPasswordAuth')
+data.setCell(2, 2, 'authenticationTests.AuthenticationForm')
+data.setCell(2, 3, 1278);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyRightFrame')
-data.setCell(3, 2, 'nestedFramesTests.NestedFramesTests')
-data.setCell(3, 3, 1212);
+data.setCell(3, 1, 'verifyFifthValue')
+data.setCell(3, 2, 'horizontalSliderTests.SliderTests')
+data.setCell(3, 3, 1184);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'incorrectPasswordAuth')
-data.setCell(4, 2, 'authenticationTests.AuthenticationForm')
-data.setCell(4, 3, 1166);
+data.setCell(4, 1, 'uploadPDFFile')
+data.setCell(4, 2, 'uploadFilesTests.UploadFileTests')
+data.setCell(4, 3, 1170);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyRightFrame')
+data.setCell(5, 2, 'nestedFramesTests.NestedFramesTests')
+data.setCell(5, 3, 1137);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLeftFrame')
+data.setCell(6, 2, 'nestedFramesTests.NestedFramesTests')
+data.setCell(6, 3, 1136);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyFourthValue')
+data.setCell(7, 2, 'horizontalSliderTests.SliderTests')
+data.setCell(7, 3, 827);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifySecondValue')
+data.setCell(8, 2, 'horizontalSliderTests.SliderTests')
+data.setCell(8, 3, 696);
 window.suiteTableData['TheInternet']= { tableData: data, tableDiv: 'times-div-TheInternet'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-TheInternet">
               </div> <!-- times-div-TheInternet -->
             </div> <!-- times-div -->
@@ -301,89 +383,203 @@ return data;
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
+              <div class="chronological-class-name">uploadFilesTests.UploadFileTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserSetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">nestedFramesTests.NestedFramesTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserSetUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">horizontalSliderTests.SliderTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserSetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">uploadFilesTests.UploadFileTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">uploadPDFFile</span>
+                <span class="method-start">10231 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">nestedFramesTests.NestedFramesTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyLeftFrame</span>
-                <span class="method-start">9577 ms</span>
+                <span class="method-start">10282 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">authenticationTests.AuthenticationForm</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">sucessAuthentication</span>
-                <span class="method-start">9750 ms</span>
+                <span class="method-start">10316 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">nestedFramesTests.NestedFramesTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">uploadFilesTests.UploadFileTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=uploadPDFFile status=SUCCESS method=UploadFileTests.uploadPDFFile()[pri:0, instance...)</span>
+                <span class="method-start">11406 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10832 ms</span>
+                <span class="method-start">11412 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">nestedFramesTests.NestedFramesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=verifyLeftFrame status=SUCCESS method=NestedFramesTests.verifyLeftFrame()[pri:1, in...)</span>
+                <span class="method-start">11419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11420 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">authenticationTests.AuthenticationForm</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=sucessAuthentication status=SUCCESS method=AuthenticationForm.sucessAuthentication(...)</span>
+                <span class="method-start">11621 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11151 ms</span>
+                <span class="method-start">11621 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">nestedFramesTests.NestedFramesTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserSetUp</span>
-                <span class="method-start">11513 ms</span>
+                <span class="method-start">12039 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">authenticationTests.AuthenticationForm</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserSetUp</span>
-                <span class="method-start">11894 ms</span>
+                <span class="method-start">12231 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">horizontalSliderTests.SliderTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyFifthValue</span>
+                <span class="method-start">18941 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">nestedFramesTests.NestedFramesTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyRightFrame</span>
-                <span class="method-start">18902 ms</span>
+                <span class="method-start">19915 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">authenticationTests.AuthenticationForm</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">failedAuthentication</span>
-                <span class="method-start">19404 ms</span>
+                <span class="method-start">20037 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">horizontalSliderTests.SliderTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=verifyFifthValue status=SUCCESS method=SliderTests.verifyFifthValue()[pri:1, instan...)</span>
+                <span class="method-start">20126 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20126 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserSetUp</span>
+                <span class="method-start">20686 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">nestedFramesTests.NestedFramesTests</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=verifyRightFrame status=SUCCESS method=NestedFramesTests.verifyRightFrame()[pri:2, ...)</span>
+                <span class="method-start">21053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20114 ms</span>
+                <span class="method-start">21053 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">authenticationTests.AuthenticationForm</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=failedAuthentication status=SUCCESS method=AuthenticationForm.failedAuthentication(...)</span>
+                <span class="method-start">21461 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20907 ms</span>
+                <span class="method-start">21462 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">browserSetUp</span>
-                <span class="method-start">21549 ms</span>
+                <span class="method-start">22032 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">incorrectPasswordAuth</span>
-                <span class="method-start">28644 ms</span>
+                <span class="method-start">30116 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">horizontalSliderTests.SliderTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySecondValue</span>
+                <span class="method-start">30152 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=verifySecondValue status=SUCCESS method=SliderTests.verifySecondValue()[pri:2, inst...)</span>
+                <span class="method-start">30848 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29810 ms</span>
+                <span class="method-start">30849 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">authenticationTests.AuthenticationForm</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=incorrectPasswordAuth status=SUCCESS method=AuthenticationForm.incorrectPasswordAut...)</span>
+                <span class="method-start">31395 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31395 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">horizontalSliderTests.SliderTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserSetUp</span>
+                <span class="method-start">31426 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFourthValue</span>
+                <span class="method-start">38784 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">recordFailure([TestResult name=verifyFourthValue status=SUCCESS method=SliderTests.verifyFourthValue()[pri:3, inst...)</span>
+                <span class="method-start">39611 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39612 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
