@@ -1,465 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="6" failed="0" skipped="3">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-18T16:49:31 CEST" name="TheInternet" finished-at="2020-09-18T16:50:17 CEST" duration-ms="45729">
+  <suite started-at="2020-10-13T13:31:40 CEST" name="Default suite" finished-at="2020-10-13T13:32:35 CEST" duration-ms="54530">
     <groups>
     </groups>
-    <test started-at="2020-09-18T16:49:31 CEST" name="Test" finished-at="2020-09-18T16:50:17 CEST" duration-ms="45729">
+    <test started-at="2020-10-13T13:31:40 CEST" name="Default test" finished-at="2020-10-13T13:32:35 CEST" duration-ms="54530">
       <class name="horizontalSliderTests.SliderTests">
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:horizontalSliderTests.SliderTests@4b0b0854]" started-at="2020-09-18T16:49:32 CEST" name="browserSetUp" finished-at="2020-09-18T16:49:53 CEST" duration-ms="21734" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to start.
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'DESKTOP-MUIS24O', ip: '192.168.178.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: ChromeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'DESKTOP-MUIS24O', ip: '192.168.178.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:210)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:136)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:75)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:139)
-at resources.Base.browserSetUp(Base.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:830)
-Caused by: java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.lang.InterruptedException
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2093)
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:204)
-... 28 more
-Caused by: java.lang.RuntimeException: java.lang.InterruptedException
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:95)
-at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:227)
-at org.openqa.selenium.remote.service.DriverService.lambda$start$0(DriverService.java:193)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1771)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1763)
-at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
-at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
-at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
-at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
-at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
-Caused by: java.lang.InterruptedException
-at java.base/java.util.concurrent.FutureTask.awaitDone(FutureTask.java:418)
-at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:203)
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:88)
-... 9 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:horizontalSliderTests.SliderTests@1613674b]" started-at="2020-10-13T13:31:40 CEST" name="browserSetUp" finished-at="2020-10-13T13:32:06 CEST" duration-ms="25788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method signature="verifyFifthValue()[pri:1, instance:horizontalSliderTests.SliderTests@4b0b0854]" started-at="2020-09-18T16:49:53 CEST" name="verifyFifthValue" finished-at="2020-09-18T16:49:53 CEST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to start.
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'DESKTOP-MUIS24O', ip: '192.168.178.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: ChromeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'DESKTOP-MUIS24O', ip: '192.168.178.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:210)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:136)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:75)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:139)
-at resources.Base.browserSetUp(Base.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:830)
-Caused by: java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.lang.InterruptedException
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2093)
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:204)
-... 28 more
-Caused by: java.lang.RuntimeException: java.lang.InterruptedException
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:95)
-at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:227)
-at org.openqa.selenium.remote.service.DriverService.lambda$start$0(DriverService.java:193)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1771)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1763)
-at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
-at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
-at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
-at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
-at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
-Caused by: java.lang.InterruptedException
-at java.base/java.util.concurrent.FutureTask.awaitDone(FutureTask.java:418)
-at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:203)
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:88)
-... 9 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="verifyFifthValue()[pri:1, instance:horizontalSliderTests.SliderTests@1613674b]" started-at="2020-10-13T13:32:06 CEST" name="verifyFifthValue" finished-at="2020-10-13T13:32:09 CEST" duration-ms="3033" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFifthValue -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:horizontalSliderTests.SliderTests@4b0b0854]" started-at="2020-09-18T16:49:53 CEST" name="recordFailure" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1600440593763" status="SKIP">
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:horizontalSliderTests.SliderTests@1613674b]" started-at="2020-10-13T13:32:09 CEST" name="recordFailure" finished-at="2020-10-13T13:32:09 CEST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFifthValue status=SUCCESS method=SliderTests.verifyFifthValue()[pri:1, instance:horizontalSliderTests.SliderTests@1613674b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:horizontalSliderTests.SliderTests@4b0b0854]" started-at="2020-09-18T16:49:53 CEST" name="tearDown" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1600440593764" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:horizontalSliderTests.SliderTests@1613674b]" started-at="2020-10-13T13:32:09 CEST" name="tearDown" finished-at="2020-10-13T13:32:13 CEST" duration-ms="3966" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:horizontalSliderTests.SliderTests@4b0b0854]" started-at="2020-09-18T16:49:53 CEST" name="browserSetUp" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1600440593788" status="SKIP">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:horizontalSliderTests.SliderTests@1613674b]" started-at="2020-10-13T13:32:13 CEST" name="browserSetUp" finished-at="2020-10-13T13:32:24 CEST" duration-ms="11019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method signature="verifySecondValue()[pri:2, instance:horizontalSliderTests.SliderTests@4b0b0854]" started-at="2020-09-18T16:49:53 CEST" name="verifySecondValue" finished-at="2020-09-18T16:49:53 CEST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to start.
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'DESKTOP-MUIS24O', ip: '192.168.178.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: ChromeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'DESKTOP-MUIS24O', ip: '192.168.178.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:210)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:136)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:75)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:139)
-at resources.Base.browserSetUp(Base.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:830)
-Caused by: java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.lang.InterruptedException
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2093)
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:204)
-... 28 more
-Caused by: java.lang.RuntimeException: java.lang.InterruptedException
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:95)
-at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:227)
-at org.openqa.selenium.remote.service.DriverService.lambda$start$0(DriverService.java:193)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1771)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1763)
-at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
-at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
-at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
-at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
-at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
-Caused by: java.lang.InterruptedException
-at java.base/java.util.concurrent.FutureTask.awaitDone(FutureTask.java:418)
-at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:203)
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:88)
-... 9 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="verifySecondValue()[pri:2, instance:horizontalSliderTests.SliderTests@1613674b]" started-at="2020-10-13T13:32:24 CEST" name="verifySecondValue" finished-at="2020-10-13T13:32:25 CEST" duration-ms="671" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySecondValue -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:horizontalSliderTests.SliderTests@4b0b0854]" started-at="2020-09-18T16:49:53 CEST" name="recordFailure" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1600440593817" status="SKIP">
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:horizontalSliderTests.SliderTests@1613674b]" started-at="2020-10-13T13:32:25 CEST" name="recordFailure" finished-at="2020-10-13T13:32:25 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySecondValue status=SUCCESS method=SliderTests.verifySecondValue()[pri:2, instance:horizontalSliderTests.SliderTests@1613674b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:horizontalSliderTests.SliderTests@4b0b0854]" started-at="2020-09-18T16:49:53 CEST" name="tearDown" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1600440593820" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:horizontalSliderTests.SliderTests@1613674b]" started-at="2020-10-13T13:32:25 CEST" name="tearDown" finished-at="2020-10-13T13:32:26 CEST" duration-ms="561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:horizontalSliderTests.SliderTests@4b0b0854]" started-at="2020-09-18T16:49:53 CEST" name="browserSetUp" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1600440593824" status="SKIP">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:horizontalSliderTests.SliderTests@1613674b]" started-at="2020-10-13T13:32:26 CEST" name="browserSetUp" finished-at="2020-10-13T13:32:33 CEST" duration-ms="7719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method signature="verifyFourthValue()[pri:3, instance:horizontalSliderTests.SliderTests@4b0b0854]" started-at="2020-09-18T16:49:53 CEST" name="verifyFourthValue" finished-at="2020-09-18T16:49:53 CEST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to start.
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'DESKTOP-MUIS24O', ip: '192.168.178.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: ChromeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'DESKTOP-MUIS24O', ip: '192.168.178.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:210)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:136)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:75)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:139)
-at resources.Base.browserSetUp(Base.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:830)
-Caused by: java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.lang.InterruptedException
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2093)
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:204)
-... 28 more
-Caused by: java.lang.RuntimeException: java.lang.InterruptedException
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:95)
-at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:227)
-at org.openqa.selenium.remote.service.DriverService.lambda$start$0(DriverService.java:193)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1771)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1763)
-at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
-at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
-at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
-at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
-at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
-Caused by: java.lang.InterruptedException
-at java.base/java.util.concurrent.FutureTask.awaitDone(FutureTask.java:418)
-at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:203)
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:88)
-... 9 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="verifyFourthValue()[pri:3, instance:horizontalSliderTests.SliderTests@1613674b]" started-at="2020-10-13T13:32:33 CEST" name="verifyFourthValue" finished-at="2020-10-13T13:32:34 CEST" duration-ms="1143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFourthValue -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:horizontalSliderTests.SliderTests@4b0b0854]" started-at="2020-09-18T16:49:53 CEST" name="recordFailure" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1600440593875" status="SKIP">
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:horizontalSliderTests.SliderTests@1613674b]" started-at="2020-10-13T13:32:34 CEST" name="recordFailure" finished-at="2020-10-13T13:32:34 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFourthValue status=SUCCESS method=SliderTests.verifyFourthValue()[pri:3, instance:horizontalSliderTests.SliderTests@1613674b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:horizontalSliderTests.SliderTests@4b0b0854]" started-at="2020-09-18T16:49:53 CEST" name="tearDown" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1600440593876" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:horizontalSliderTests.SliderTests@1613674b]" started-at="2020-10-13T13:32:34 CEST" name="tearDown" finished-at="2020-10-13T13:32:35 CEST" duration-ms="568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- horizontalSliderTests.SliderTests -->
-      <class name="authenticationTests.AuthenticationForm">
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:authenticationTests.AuthenticationForm@e056f20]" started-at="2020-09-18T16:49:32 CEST" name="browserSetUp" finished-at="2020-09-18T16:49:52 CEST" duration-ms="20773" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetUp -->
-        <test-method signature="sucessAuthentication()[pri:1, instance:authenticationTests.AuthenticationForm@e056f20]" started-at="2020-09-18T16:49:52 CEST" name="sucessAuthentication" finished-at="2020-09-18T16:49:55 CEST" duration-ms="2647" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sucessAuthentication -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:authenticationTests.AuthenticationForm@e056f20]" started-at="2020-09-18T16:49:55 CEST" name="recordFailure" finished-at="2020-09-18T16:49:55 CEST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=sucessAuthentication status=SUCCESS method=AuthenticationForm.sucessAuthentication()[pri:1, instance:authenticationTests.AuthenticationForm@e056f20] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:authenticationTests.AuthenticationForm@e056f20]" started-at="2020-09-18T16:49:55 CEST" name="tearDown" finished-at="2020-09-18T16:49:56 CEST" duration-ms="563" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:authenticationTests.AuthenticationForm@e056f20]" started-at="2020-09-18T16:49:56 CEST" name="browserSetUp" finished-at="2020-09-18T16:50:06 CEST" duration-ms="10323" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetUp -->
-        <test-method signature="failedAuthentication()[pri:2, instance:authenticationTests.AuthenticationForm@e056f20]" started-at="2020-09-18T16:50:06 CEST" name="failedAuthentication" finished-at="2020-09-18T16:50:07 CEST" duration-ms="1358" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- failedAuthentication -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:authenticationTests.AuthenticationForm@e056f20]" started-at="2020-09-18T16:50:07 CEST" name="recordFailure" finished-at="2020-09-18T16:50:07 CEST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=failedAuthentication status=SUCCESS method=AuthenticationForm.failedAuthentication()[pri:2, instance:authenticationTests.AuthenticationForm@e056f20] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:authenticationTests.AuthenticationForm@e056f20]" started-at="2020-09-18T16:50:07 CEST" name="tearDown" finished-at="2020-09-18T16:50:08 CEST" duration-ms="609" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:authenticationTests.AuthenticationForm@e056f20]" started-at="2020-09-18T16:50:08 CEST" name="browserSetUp" finished-at="2020-09-18T16:50:15 CEST" duration-ms="7437" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetUp -->
-        <test-method signature="incorrectPasswordAuth()[pri:3, instance:authenticationTests.AuthenticationForm@e056f20]" started-at="2020-09-18T16:50:15 CEST" name="incorrectPasswordAuth" finished-at="2020-09-18T16:50:17 CEST" duration-ms="1385" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- incorrectPasswordAuth -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:authenticationTests.AuthenticationForm@e056f20]" started-at="2020-09-18T16:50:17 CEST" name="recordFailure" finished-at="2020-09-18T16:50:17 CEST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=incorrectPasswordAuth status=SUCCESS method=AuthenticationForm.incorrectPasswordAuth()[pri:3, instance:authenticationTests.AuthenticationForm@e056f20] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:authenticationTests.AuthenticationForm@e056f20]" started-at="2020-09-18T16:50:17 CEST" name="tearDown" finished-at="2020-09-18T16:50:17 CEST" duration-ms="563" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- authenticationTests.AuthenticationForm -->
-      <class name="nestedFramesTests.NestedFramesTests">
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:nestedFramesTests.NestedFramesTests@19bb07ed]" started-at="2020-09-18T16:49:32 CEST" name="browserSetUp" finished-at="2020-09-18T16:49:52 CEST" duration-ms="20773" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetUp -->
-        <test-method signature="verifyLeftFrame()[pri:1, instance:nestedFramesTests.NestedFramesTests@19bb07ed]" started-at="2020-09-18T16:49:52 CEST" name="verifyLeftFrame" finished-at="2020-09-18T16:49:54 CEST" duration-ms="2052" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLeftFrame -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:nestedFramesTests.NestedFramesTests@19bb07ed]" started-at="2020-09-18T16:49:54 CEST" name="recordFailure" finished-at="2020-09-18T16:49:54 CEST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLeftFrame status=SUCCESS method=NestedFramesTests.verifyLeftFrame()[pri:1, instance:nestedFramesTests.NestedFramesTests@19bb07ed] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nestedFramesTests.NestedFramesTests@19bb07ed]" started-at="2020-09-18T16:49:54 CEST" name="tearDown" finished-at="2020-09-18T16:49:55 CEST" duration-ms="809" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:nestedFramesTests.NestedFramesTests@19bb07ed]" started-at="2020-09-18T16:49:55 CEST" name="browserSetUp" finished-at="2020-09-18T16:50:06 CEST" duration-ms="10485" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetUp -->
-        <test-method signature="verifyRightFrame()[pri:2, instance:nestedFramesTests.NestedFramesTests@19bb07ed]" started-at="2020-09-18T16:50:06 CEST" name="verifyRightFrame" finished-at="2020-09-18T16:50:07 CEST" duration-ms="1082" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRightFrame -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:nestedFramesTests.NestedFramesTests@19bb07ed]" started-at="2020-09-18T16:50:07 CEST" name="recordFailure" finished-at="2020-09-18T16:50:07 CEST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyRightFrame status=SUCCESS method=NestedFramesTests.verifyRightFrame()[pri:2, instance:nestedFramesTests.NestedFramesTests@19bb07ed] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:nestedFramesTests.NestedFramesTests@19bb07ed]" started-at="2020-09-18T16:50:07 CEST" name="tearDown" finished-at="2020-09-18T16:50:07 CEST" duration-ms="568" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- nestedFramesTests.NestedFramesTests -->
-      <class name="uploadFilesTests.UploadFileTests">
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:uploadFilesTests.UploadFileTests@10e41621]" started-at="2020-09-18T16:49:32 CEST" name="browserSetUp" finished-at="2020-09-18T16:49:52 CEST" duration-ms="20773" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetUp -->
-        <test-method signature="uploadPDFFile()[pri:0, instance:uploadFilesTests.UploadFileTests@10e41621]" started-at="2020-09-18T16:49:52 CEST" name="uploadPDFFile" finished-at="2020-09-18T16:49:55 CEST" duration-ms="2461" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- uploadPDFFile -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:uploadFilesTests.UploadFileTests@10e41621]" started-at="2020-09-18T16:49:55 CEST" name="recordFailure" finished-at="2020-09-18T16:49:55 CEST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=uploadPDFFile status=SUCCESS method=UploadFileTests.uploadPDFFile()[pri:0, instance:uploadFilesTests.UploadFileTests@10e41621] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:uploadFilesTests.UploadFileTests@10e41621]" started-at="2020-09-18T16:49:55 CEST" name="tearDown" finished-at="2020-09-18T16:49:55 CEST" duration-ms="662" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- uploadFilesTests.UploadFileTests -->
-    </test> <!-- Test -->
-  </suite> <!-- TheInternet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

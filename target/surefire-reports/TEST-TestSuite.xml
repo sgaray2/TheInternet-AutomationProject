@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="41.14" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="37.368" tests="9" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="13"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="C:\Users\Beba\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven_3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="user.timezone" value="Europe/Berlin"/>
-    <property name="maven.conf" value="C:/apache-maven-3.6.3/conf"/>
-    <property name="java.vm.specification.version" value="13"/>
+    <property name="maven.conf" value="C:\Users\Beba\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven_3.6.3\bin\../conf"/>
     <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f C:\Users\Beba\eclipse-workspace\TheInternetProject\pom.xml install test"/>
     <property name="jdk.debug" value="release"/>
-    <property name="maven.home" value="C:\apache-maven-3.6.3"/>
+    <property name="maven.home" value="C:\Users\Beba\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven_3.6.3\bin\.."/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Beba"/>
     <property name="user.language" value="en"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2020-01-14"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.2"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.8"/>
     <property name="file.separator" value="\"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="java.runtime.version" value="11.0.8+10-LTS"/>
     <property name="user.name" value="Beba"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
@@ -42,30 +43,32 @@
     <property name="file.encoding" value="Cp1252"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Beba\AppData\Local\Temp\"/>
-    <property name="java.version" value="13.0.2"/>
-    <property name="user.dir" value="C:\Users\Beba\eclipse-workspace\TheInternetProject"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="user.dir" value="C:\Users\Beba\.jenkins\workspace\TheInternetAutomationProject"/>
     <property name="os.arch" value="amd64"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:/Users/Beba/eclipse-workspace/TheInternetProject"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Beba\.jenkins\workspace\TheInternetAutomationProject"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Beba\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Java\jdk-13.0.2\bin;C:\apache-maven-3.6.3\bin;C:\Users\Beba\AppData\Local\Microsoft\WindowsApps;C:\Users\Beba\AppData\Local\atom\bin;C:\Users\Beba\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Program Files\heroku\bin;C:\Users\Beba\AppData\Roaming\npm;C:\Users\Beba\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-13.0.2\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Beba\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven_3.6.3/bin;C:\Program Files\Java\jdk-11.0.8/bin;C:\Program Files\Java\jdk-11.0.8/bin;C:\Users\Beba\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Beba\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Java\jdk-11.0.8\bin;C:\Users\Beba\AppData\Local\Microsoft\WindowsApps;C:\Users\Beba\AppData\Local\atom\bin;C:\Users\Beba\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Program Files\heroku\bin;C:\Users\Beba\AppData\Roaming\npm;C:\Users\Beba\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="13.0.2+8"/>
-    <property name="classworlds.conf" value="C:/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.8+10-LTS"/>
+    <property name="classworlds.conf" value="C:\Users\Beba\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven_3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="library.jansi.path" value="C:/apache-maven-3.6.3/lib/jansi-native"/>
-    <property name="java.class.version" value="57.0"/>
+    <property name="library.jansi.path" value="C:\Users\Beba\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven_3.6.3\bin\..\lib\jansi-native"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="uploadPDFFile" classname="uploadFilesTests.UploadFileTests" time="1.089"/>
-  <testcase name="verifyLeftFrame" classname="nestedFramesTests.NestedFramesTests" time="1.103"/>
-  <testcase name="sucessAuthentication" classname="authenticationTests.AuthenticationForm" time="1.336"/>
-  <testcase name="verifyFifthValue" classname="horizontalSliderTests.SliderTests" time="0.088"/>
-  <testcase name="verifyRightFrame" classname="nestedFramesTests.NestedFramesTests" time="1.015"/>
-  <testcase name="failedAuthentication" classname="authenticationTests.AuthenticationForm" time="1.424"/>
-  <testcase name="verifySecondValue" classname="horizontalSliderTests.SliderTests" time="0.694"/>
-  <testcase name="incorrectPasswordAuth" classname="authenticationTests.AuthenticationForm" time="1.241"/>
-  <testcase name="verifyFourthValue" classname="horizontalSliderTests.SliderTests" time="0.827"/>
+  <testcase name="verifyFifthValue" classname="horizontalSliderTests.SliderTests" time="1.037"/>
+  <testcase name="uploadPDFFile" classname="uploadFilesTests.UploadFileTests" time="1.098"/>
+  <testcase name="verifyLeftFrame" classname="nestedFramesTests.NestedFramesTests" time="1.102"/>
+  <testcase name="sucessAuthentication" classname="authenticationTests.AuthenticationForm" time="1.195"/>
+  <testcase name="verifySecondValue" classname="horizontalSliderTests.SliderTests" time="0.524"/>
+  <testcase name="verifyRightFrame" classname="nestedFramesTests.NestedFramesTests" time="0.935"/>
+  <testcase name="failedAuthentication" classname="authenticationTests.AuthenticationForm" time="1.002"/>
+  <testcase name="verifyFourthValue" classname="horizontalSliderTests.SliderTests" time="0.71"/>
+  <testcase name="incorrectPasswordAuth" classname="authenticationTests.AuthenticationForm" time="1.073"/>
 </testsuite>
